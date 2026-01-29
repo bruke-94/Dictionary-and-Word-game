@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary - Search</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <a href="index.html" class="back-link">⬅ Back to Home</a>
+            <h2>Dictionary</h2>
+            <p>Search for definitions, synonyms, and more.</p>
+        </header>
+
+        <section class="search-box">
+            <div class="input-group">
+                <label for="wordInput" class="visually-hidden">Enter a word</label>
+                <input type="text" id="wordInput" placeholder="Search for a word">
+                <button onclick="searchWord()" id="searchBtn">Search</button>
+            </div>
+        </section>
+
+        <div id="result" class="result-container">
+        </div>
+    </main>
+
+    <script src="js/dictionary.js"></script>
+</body>
+
+</html>
