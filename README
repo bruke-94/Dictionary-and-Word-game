@@ -24,16 +24,13 @@ The website has two main features:
 ## Screenshots
 
 ### Home Page
-
-![Home Page]<img src="screenshots/index.PNG" width="45%" >
+<img src="screenshots/index.PNG" width="45%">
 
 ### Dictionary Page
+<img src="screenshots/dictionary.PNG" width="45%">
 
-![Dictionary Page](screenshots/dictionary.PNG)
-
-### Word Game Page
-
-![Word Game Page](screenshots/game.PNG)
+### Game Page
+<img src="screenshots/game.PNG" width="45%">
 
 ## Author
 
